@@ -26,8 +26,8 @@ android {
         ksp {
             arg("room.schemaLocation", "$projectDir/schemas")
         }
-        lintOptions {
-            abortOnError false
+        lint {
+            abortOnError = false
         }
     }
 
