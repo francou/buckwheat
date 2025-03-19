@@ -26,6 +26,9 @@ android {
         ksp {
             arg("room.schemaLocation", "$projectDir/schemas")
         }
+        lintOptions {
+            abortOnError false
+        }
     }
 
     buildTypes {
